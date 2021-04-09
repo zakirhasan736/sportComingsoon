@@ -1,0 +1,190 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+
+    } */
+    
+    /* LG Device :992px. */
+    /* @media (min-width: 992px) and (max-width: 1200px) {
+       
+    } */
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .navbar-nav .nav-item.list-inline-item a {
+            color: #202628;
+        }
+        ul li.list-inline-item {
+            padding: 0;
+            display: flex !important;
+            margin-left: 0 !important;
+            justify-content: center !important;
+            margin-top: 10px !important;
+        }
+        .main-headerBox {
+            padding: 24px 0 24px 0;
+        }
+
+        .list-inline-item.header-btnbox .btn-str.headerbtn {
+            font-size: 16px;
+            color: #fff;
+            width: 202px;
+            padding: 16px 18px;
+            font-weight: 600;
+        }
+        .list-inline-item.header-btnbox .btn-str.headerbtn:hover{
+            background: #FE5F55;
+        }
+
+        .navbar-nav.menu-bar {
+            background: #fff;
+            height: 100vh;
+            position: relative;
+            padding-top: 10%;
+            top: 15px;
+            text-align: center;
+        }
+
+        .navbar-navsd ul li {
+            margin-left: 0px;
+            padding-top: 0px;
+        }
+        .navbar-toggler span {
+            font-size: 28px;
+            line-height: 40px;
+            color: #fff;
+            width: 45px;
+            height: 42px;
+            display: block;
+            border: 2px solid #fff;
+        }
+        .navbar-toggler:focus, .navbar-toggler:hover {
+           outline: 0;
+        }
+ 
+        .navbar-nav .nav-item.list-inline-item a.nav-link.active:before,
+        .navbar-nav .nav-item.list-inline-item a:hover.nav-link:before{
+            left: calc(42% + 1px);
+            width: 16%;
+            transition: all .3s ease-out 0s;
+        }
+        .nav-item.list-inline-item.header-btnbox:nth-child(3) {
+            margin-top: 60px !important;
+        } 
+        .header-topcontent {
+            padding-top: 10px;
+        }
+        .header-topcontent h1 {
+            font-size: 20px;
+        }
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+        .navbar-nav .nav-item.list-inline-item a {
+            color: #202628;
+        }
+        ul li.list-inline-item {
+            padding: 0;
+            display: flex !important;
+            margin-left: 0 !important;
+            justify-content: center !important;
+            margin-top: 10px !important;
+        }
+        .main-headerBox {
+            padding: 24px 0 24px 0;
+        }
+
+        .list-inline-item.header-btnbox .btn-str.headerbtn {
+            font-size: 16px;
+            color: #fff;
+            width: 202px;
+            padding: 16px 18px;
+            font-weight: 600;
+        }
+        .list-inline-item.header-btnbox .btn-str.headerbtn:hover{
+            background: #FE5F55;
+        }
+
+        .navbar-nav.menu-bar {
+            background: #fff;
+            height: 100vh;
+            position: relative;
+            padding-top: 36%;
+            top: 15px;
+            text-align: center;
+        }
+
+        .navbar-navsd ul li {
+            margin-left: 0px;
+            padding-top: 0px;
+        }
+        .navbar-toggler span {
+            font-size: 28px;
+            line-height: 40px;
+            color: #fff;
+            width: 45px;
+            height: 42px;
+            display: block;
+            border: 2px solid #fff;
+        }
+        .navbar-toggler:focus, .navbar-toggler:hover {
+           outline: 0;
+        }
+        .navbar-nav .nav-item.list-inline-item a.nav-link.active:before,
+        .navbar-nav .nav-item.list-inline-item a:hover.nav-link:before{
+            left: calc(28% + 3px);
+            width: 43%;
+            transition: all .3s ease-out 0s;
+        }
+        .nav-item.list-inline-item.header-btnbox:nth-child(3) {
+            margin-top: 60px !important;
+        }
+        .header-topcontent {
+            padding-top: 18px;
+        }
+        .header-topcontent h1 {
+            font-size: 11px;
+        }
+        #wpfront-notification-bar div.wpfront-message {
+            font-size: 12px;
+        }
+        .aboutcontent-Box {
+            margin: 0;
+        }
+        .secttion-title h4 {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        .aboutdashed-box {
+            margin: 0;
+        }
+        .register-formgroup.first-name {
+            margin-bottom: 0;
+        }
+        .container-fluid {
+            padding: 7px 10px;
+        }
+        .copyright-widgets p {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 20px;
+        }
+        .our-faq-sec .btn-link {
+            font-size: 16px;
+        }
+        .card-body {
+            padding: 15px;
+            font-size: 18px;
+        }
+        .navbar {
+        padding: 0;
+        }
+    }
+     
+    /* SM Small Device :550px. */
+    /* @media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+     
+    } */
